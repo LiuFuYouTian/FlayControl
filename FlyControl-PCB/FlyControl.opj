@@ -1,0 +1,257 @@
+(ExpressProject "FlyControl"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S032 (4052516)  [8/29/2022]-[11/05/23]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "d:\pcbdesign\00-lib\library1.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\flycontrol.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (M1_5
+      (FullPartName "M1_5.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (Buzz
+      (FullPartName "Buzz.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (ZH-3
+      (FullPartName "ZH-3.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (ZH-2
+      (FullPartName "ZH-2.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (T1016
+      (FullPartName "T1016.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (TP4054
+      (FullPartName "TP4054.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (MPU9250
+      (FullPartName "MPU9250.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (BMP280
+      (FullPartName "BMP280.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (ZH-4
+      (FullPartName "ZH-4.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (LN1134A332MR
+      (FullPartName "LN1134A332MR.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (KE-254-1
+      (FullPartName "KE-254-1.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (ESP32-WROOM
+      (FullPartName "ESP32-WROOM.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (FB
+      (FullPartName "FB.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (BEAD
+      (FullPartName "BEAD.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PH-2
+      (FullPartName "PH-2.Normal")
+      (LibraryName "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\flycontrol.dsn")
+      (Path "Design Resources" ".\flycontrol.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\flycontrol.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "d:\pcbdesign\00-lib\library1.olb")
+      (Select "Design Resources" ".\flycontrol.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 410 0 869"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1457 28 915")
+        (Scroll "-144 -2")
+        (Zoom "56")
+        (Occurrence "/"))
+      (Path
+         "E:\DOCUMENT\ELECTRONICPROJECT\FLAYCONTROL\FLYCONTROL-PCB\FLYCONTROL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "ESP32-WROOM")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "MPU9250")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "BMP280")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "PH-2")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "ZH-2")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "FB")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "TP4054")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "T1016")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "KE-254-1")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "LN1134A332MR")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "ZH-4")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "PH-4")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "PH-6")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "POWERPORT")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "ZH-3")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "BUZZ")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "BUTTON")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "ESP32-C3")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "M2")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1457 28 915"))
+      (Path "D:\PCBDESIGN\00-LIB\LIBRARY1.OLB")
+      (Package "M1_5")
+      (PartType "1")))
+  (MPSSessionName "a1833")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library"))
